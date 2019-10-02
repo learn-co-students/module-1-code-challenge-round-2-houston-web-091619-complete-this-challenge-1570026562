@@ -2,7 +2,9 @@
 
 For this challenge, we'll be building out a Netflix clone!
 
-A `Viewer` has many `Movie`s through `Review`s. A `Movie` can be reviewed by many `Viewer`s. A `Viewer` can review many `Movie`s, marking their rating on the `Review`.
+A `Viewer` has many `Movie`s through `Review`s. 
+A `Movie` can be reviewed by many `Viewer`s. 
+A `Viewer` can review many `Movie`s, marking their rating on the `Review`.
 
 As always, make sure to sketch out your domain and think about the single source of truth for your data.
 

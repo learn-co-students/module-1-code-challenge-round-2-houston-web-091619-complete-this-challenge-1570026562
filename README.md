@@ -52,26 +52,26 @@ Do your best to follow Ruby best practices. For example, use higher-level array 
   - returns a `Review` instance. -->
 <!-- - `Viewer#reviewed_movies`
   - returns an array of `Movie` instances reviewed by the `Viewer` instance. -->
-- `Viewer#reviewed_movie?`
+<!-- - `Viewer#reviewed_movie?`
   - a `Movie` instance is passed in as its only argument;
-  - returns `true` if the `Viewer` instance already has an association with the `Movie` instance.
+  - returns `true` if the `Viewer` instance already has an association with the `Movie` instance. -->
 
 ### 3. Checkpoint
 
-After testing all of your code up to this point, `git add` and `git commit` your code. **No need to `git push` yet**.
+<!-- After testing all of your code up to this point, `git add` and `git commit` your code. **No need to `git push` yet**. -->
 
 ### 4. `Movie` relationships
 
-- `Movie#reviews`
-  - returns an array of all the `Review` instances for the `Movie`.
-- `Movie#viewers`
-  - returns an array of all of the `Viewer` instances that reviewed the `Movie`.
+<!-- - `Movie#reviews`
+  - returns an array of all the `Review` instances for the `Movie`. -->
+<!-- - `Movie#viewers`
+  - returns an array of all of the `Viewer` instances that reviewed the `Movie`. -->
 
 ### 5. Advanced `Review` methods
 
-- `Movie#average_rating`
+<!-- - `Movie#average_rating`
   - returns the average of all ratings for the `Movie` instance;
-  - to average ratings, add all ratings together and divide by the total number of ratings.
+  - to average ratings, add all ratings together and divide by the total number of ratings. -->
 - `Movie.highest_rated`
   - returns the `Movie` instance with the highest average rating.
 - `Viewer#rate_movie(movie)`

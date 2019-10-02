@@ -32,11 +32,19 @@ class Viewer
   end
 
   def reviewed_movie?(movie)
-    reviews.map do |review|
+    reviews.each do |review|
       if review.movie == movie
-        print "true"
+        return true
+      else
+        return false
       end
     end
   end
+
+
+  def rate_movie(movie, rating)
+    Review.new(self, movie, rating=nil)
+end
+
   
 end

@@ -1,3 +1,4 @@
+require 'pry'
 # require and load the environment file
 require_relative '../config/environment.rb'
 
@@ -6,9 +7,32 @@ def reload
   load 'config/environment.rb'
 end
 
-# Insert code here to run before hitting the binding.pry
-# This is a convenient place to define variables and/or set up new object instances,
-# so they will be available to test and play around with in your console
+
+m1 = Movie.new("Title_one")
+m2 = Movie.new("Title_two")
+m3 = Movie.new("Title_three")
+
+
+
+
+v1 = Viewer.new("Username_one")
+v2 = Viewer.new("Username_two")
+v3 = Viewer.new("Username_three")
+
+
+
+
+r1 = Review.new(m1, v1, "5")
+r2 = Review.new(m2, v1)
+
+r3 = Review.new(m3, v2, "3")
+r4 = Review.new(m1, v2, "4")
+
+r5 = Review.new(m1, v3, "3")
+r6 = Review.new(m2, v3, "5")
+
+
+
 
 
 
